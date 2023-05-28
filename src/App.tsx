@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import TestA from './components/TestA'
+import TestB from './components/TestB'
+
+
 function App() {
   return (
     <div className="App">
@@ -18,9 +22,12 @@ function App() {
         >
           Learn React
         </a>
+        <TestA />
+        <TestB />
       </header>
     </div>
   );
 }
+
 
 export default App;
